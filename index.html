@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
-    <title>Just templete</title>
+    <link rel="stylesheet" href="./index.css">
+    <title>Awesome Books</title>
 </head>
+
 <body>
-    <h1>Do you need a Quick templete for HTM, CSS, Sass and JavaScript</h1>
+    <nav>
+        <h2>Awesome Books</h2>
+        <ul>
+            <li><a id="list-link" href="#">List</a></li>
+            <li><a id="add-link" href="#">Add new</a></li>
+            <li><a id ="contact-link" href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="date">
+        <p>April 29th 2022</p>
+    </div>
+    <section class="all-books LIST">
+        <h1>All awesome Books</h1>
+        <article id="book-list">
+
+        </article>
+    </section>
+    <hr /><br />
+    <section class="all-books ADD ">
+        <h1>Add a new book</h1>
+        <form action="#" id="new-book">
+                <label for="title"><input type="text" placeholder="Title" required id="title"></label><br /><br/>
+                <label for="author"><input type="text" placeholder="author" required id="author"></label><br/><br />
+                <button id="btn" type="submit">Add</button>
+
+        </form>
+    </section>
+    <section class="contact all-books">
+        <h1>Contact Information</h1>
+        <p>Do you have any questions or you just want to say "hello"?</p>
+        <p>You can reach out to us!</p>
+      <ul>
+          <li>Our email:awsome@mail.com</li>
+          <li>Our phone number: 0788995498</li>
+          <li>Our address: KK 125 st</li>
+      </ul>
+
+
+    </section>
+    <footer>
+        <p>Copyright Artur and Pascal, all right reserved 2022</p>
+    </footer>
+    <script type="module" src="./index.js"></script>
 </body>
+
 </html>
