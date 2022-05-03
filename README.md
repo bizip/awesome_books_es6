@@ -6,7 +6,7 @@
 
 # Link to live project
 
-## [Awsome Book](https://github.com/bizip/awesome-books)
+## [Awsome Book](https://bizip.github.io/awesome_books_es6/)
 
 ## Built With
 
